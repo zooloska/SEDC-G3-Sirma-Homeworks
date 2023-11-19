@@ -1,7 +1,0 @@
-Five important rules for writing pseudocode are:
-
-Write one statement per line.
-Initial keywords should be represented in capital case(READ, WRITE, IF, WHILE, UNTIL).
-Indentation of pseudocode should be similar to the actual program to show hierarchy.
-Ending the multiline structure is necessary.
-Keep statements in simple language(English).
