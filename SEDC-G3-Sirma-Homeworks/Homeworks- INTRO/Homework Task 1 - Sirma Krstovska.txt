@@ -1,0 +1,20 @@
+START
+INPUT Student Name
+INPUT GRADES Math2, Science3, History4, English5
+INPUT (Math2)
+INPUT (Science3)
+INPUT (History4)
+INPUT (English5)
+SUM = Math2+Science3+History4+English5
+OUTPUT SUM
+INPUT SUM // 4
+OUTPUT DIVIDE SUM // 4   - za ova ne sum sigurna deka e vaka
+OUTPUT RESULT
+OUTPUT IF RESULT < 3, then student failed
+          ELSE
+          
+ 		  IF RESULT > 3, then student passed
+INPUT RESULT 
+INPUT RESULT 3,5 (ili 4)
+OUTPUT PASSED
+END
