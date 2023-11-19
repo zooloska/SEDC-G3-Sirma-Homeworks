@@ -7,6 +7,7 @@
 </head>
 <body>
     <tbody><h1>Dado Tea Lunch Special</h1></tbody>
+<form action="" method="post">
   <section>Monday through Friday</section>
   <section>11am - 3pm</section>
   <section>$9.95 plus tax</section>
@@ -14,7 +15,7 @@
 
   <p>Includes sandwich, snack and drink.</p>
 
-<fieldset>
+ <fieldset>
     <legend>Order Information</legend>
     <label form="name">Name</label>
     <input type="text" name="customername" id="customername" required placeholder=""/>
@@ -23,11 +24,12 @@
             <input type="radio" name="here" id="here" value="here"><label for="Here">Here</label>
          </dd>
          <dd>
-         <input type="radio" name="To Go" id="To Go" value="=To Go">   <label for="To Go">To Go</label>
+         <input type="radio" name="To Go" id="To Go" value="=To Go">
+         <label for="To Go">To Go</label>
          </dd>
     </dl>
-</fieldset>
-<fieldset>
+ </fieldset>
+ <fieldset>
     <legend>Sandwiches</legend>
     <p><b>Monday</b></p>
      <dl>
@@ -97,8 +99,8 @@
             <label for="Gluten Free Bread &#162;">Gluten Free Bread (75&#162; extra)</label>            
         </dd>
     </dl>
-</fieldset>
-<fieldset>
+ </fieldset>
+ <fieldset>
     <legend>Snack</legend>
     <label for="Snacks"><b>Snacks</b></label>
     <dl>
@@ -115,10 +117,9 @@
            <label for="Potato Chips">Potato Chips</label>
         </dd>
     </dl>     
-</fieldset>
-<fieldset>
+ </fieldset>
+ <fieldset>
     <legend>Drink</legend>
-    <form action="" method="post"></form>
     <label for="Drinks"><b>Drinks</b></label>
     <select name="Drinks" id="Drinks">
        <option value="Hot Black Tea - Keemun">Hot Black Tea - Keemun</option>
@@ -129,11 +130,13 @@
 <hr>
    <input type="radio" name="Large Drink (75 &#162;extra)" id="Large Drink (75 &#162;extra)" value="75">
    <label for="Large Drink &#162;75 extra">Large Drink (75&#162; extra)</label>  
-</fieldset>
+ </fieldset>
 
 <br/>
 
 <button>Place order</button>
+
+</form>
     
 </body>
 </html>
