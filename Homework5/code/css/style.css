@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: white;
+    justify-items: center;
+}
+
+
+.main-container {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding: 0%;
+  border: solid saddlebrown;
+}
+ 
+.col-1 {
+    display: flex; 
+    flex-direction: column; 
+}
+
+
+.box-1 {
+    width: 100px;
+    height: 150px;
+    background-color:antiquewhite;     
+    border-style: solid;
+    border-width: 5px 15px 18px 10px; 
+    border-color: saddlebrown;  
+    margin-right: 0%;  
+    padding-right: 1%;
+    display: flex;
+}
+
+
+.box-2 {
+    width: 100px;
+    height: 200px;
+    background-color:antiquewhite;
+    border-style: solid;
+    border-width: 2px 15px 10px 10px; 
+    border-color: saddlebrown; 
+    margin-right: 0%;  
+    padding-right: 1%; 
+    display: flex;
+}
+
+
+.box-3 {
+    width: 100px;
+    height: 120px;
+    background-color: royalblue;
+    border-style: solid;
+    border-width: 5px 15px 3px 10px;
+    border-color: saddlebrown; 
+    margin-right: 0%;
+    padding-right: 1%;
+    display: flex;
+}
+
+
+.col-2 {
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.box-4 {
+    width: 366px;
+    height: 400px;
+    background-color: red;
+    border-style: solid;
+    border-width: 5px 5px 10px 5px;
+    border-color: saddlebrown;
+    display: flex;
+    flex-direction: column;    
+}
+
+.box-5 {    
+    width: 356px;
+    height: 100px;
+    border-style: solid;
+    background-color: antiquewhite;
+    border-width: 5px 10px 5px 6px;
+    border-color: saddlebrown;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: last baseline;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column-reverse; 
+    flex-wrap: wrap-reverse;
+    flex: 3;   
+}
+
+.box-6 {
+    width: 10px;
+    height: 60px;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 5px 5px;
+    border-color: saddlebrown;  
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: stretch;
+}
+
+.box-7 {
+    width: 10px;
+    height: 60px;
+    background-color:antiquewhite; 
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: saddlebrown;
+    display: flex;
+    flex-direction: column-reverse];
+    justify-content: stretch;
+}
