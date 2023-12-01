@@ -36,7 +36,6 @@
     border-style: solid;
     border-width: 5px 15px 18px 10px; 
     border-color: saddlebrown;  
-    display: flex;
 }
 
 
@@ -47,7 +46,6 @@
     border-style: solid;
     border-width: 2px 15px 10px 10px; 
     border-color: saddlebrown; 
-    display: flex;
 }
 
 
@@ -58,7 +56,6 @@
     border-style: solid;
     border-width: 4px 15px 3px 10px;
     border-color: saddlebrown; 
-    display: flex;
 }
 
 .box-4 {
@@ -67,9 +64,7 @@
     background-color: red;
     border-style: solid;
     border-width: 5px 5px 10px 5px;
-    border-color: saddlebrown;
-    display: flex;
-    flex-direction: row;    
+    border-color: saddlebrown;    
 }
 
 .box-5 {    
@@ -79,29 +74,22 @@
     background-color: antiquewhite;
     border-width: 4spx 10px 3px 6px;
     border-color: saddlebrown;
-    display: flex;
 }
 
 .box-6 {
-    width: 10px;
-    height: 60px;
+    width: 15px;
+    height: 48px;
     background-color: yellow;
     border-style: solid;
     border-width: 5px 5px;
     border-color: saddlebrown;  
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+  }
 
 .box-7 {
-    width: 10px;
-    height: 60px;
+    width: 15px;
+    height: 48px;
     background-color:antiquewhite; 
     border-style: solid;
     border-width: 5px 5px 5px 5px;
     border-color: saddlebrown;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
