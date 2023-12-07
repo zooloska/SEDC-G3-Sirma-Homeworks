@@ -15,7 +15,7 @@ console.log ("The result from Task_2 is: ", seconds);
 //Task_3
 let num = 256;
 let num1 = ++num;
-console.log ('The result from Task_3 is:  ', num1);
+console.log ('The result from Task_3 is: ', num1);
 
 
 // Task_4
@@ -30,7 +30,7 @@ let length = 154;
 let width = 444;
 let result2 = length + width;
 let resultTask5 = result2 * 2;
-console.log ('The result from Task_5 is:   ', resultTask5);
+console.log ('The result from Task_5 is: ', resultTask5);
 
 //Task_6
 let radius= 69;
