@@ -132,33 +132,49 @@ let userValue = (0, 1000);
 
 
 
+
  console.log ('===== VEZBA-2 ======');
 
 let inputUserYear = prompt("Enter your birth year:");
-let parsedInputYear = parseInt(inputYear);
-let 
+let parsedInputYear = parseInt(inputUserYear);
+let chineseZodiac = (parsedInputYear - 4) % 12;
 
-switch (parsedInputYear) {
+switch (chineseZodiac) {
+    case 0:
+        console.log("Your Chinese Zodiac sign is: Rat.");
+        break;
     case 1:
-        console.log("Monday");
+        console.log("Your Chinese Zodiac sign is: Ox.");
         break;
     case 2:
-        console.log("Tuesday");
+        console.log("Your Chinese Zodiac sign is: Tiger.");
         break;
     case 3:
-        console.log("Wednesday");
+        console.log("Your Chinese Zodiac sign is: Rabbit.");
         break;
     case 4:
-        console.log("Thursday");
+        console.log("Your Chinese Zodiac sign is: Dragon.");
         break;
     case 5:
-        console.log("Friday");
+        console.log("Your Chinese Zodiac sign is: Snake.");
         break;
     case 6:
-        console.log("Saturday");
+        console.log("Your Chinese Zodiac sign is: Horse.");
         break;
     case 7:
-        console.log("Sunday");
+        console.log("Your Chinese Zodiac sign is: Goat.");
+        break;
+    case 8:
+        console.log("Your Chinese Zodiac sign is: Monkey.");
+        break;
+    case 9:
+        console.log("Your Chinese Zodiac sign is: Rooster.");
+        break;
+    case 10:
+       console.log("Your Chinese Zodiac sign is: Dog.");
+        break;
+    case 11:
+        console.log("Your Chinese Zodiac sign is: Pig.");
         break;
     default:
         console.log("Invalid input value");
