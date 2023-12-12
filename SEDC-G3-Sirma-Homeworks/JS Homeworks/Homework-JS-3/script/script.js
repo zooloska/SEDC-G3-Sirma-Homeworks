@@ -30,11 +30,11 @@ function dogToHumanYears (userInput) {
 }
 
 
-let humanToDogYearsUserInput = prompt('Enter human years, to be converted to dog years.');
+let humanToDogYearsUserInput = prompt('Enter human years, to be converted into dog years.');
 let resultDog = humanToDogYears(humanToDogYearsUserInput);
 console.log (resultDog);
 
-let dogToHumanYearsInput = prompt('Enter dog years, to be converted to human years.');
+let dogToHumanYearsInput = prompt('Enter dog years, to be converted into human years.');
 let resultHuman = dogToHumanYears(dogToHumanYearsInput);
 console.log (resultHuman);
 
