@@ -120,16 +120,18 @@ else if (markPoints <40) {
 console.log('===== VEZBA-1 =====');
 let value = parseInt (prompt ('How much money do you have?'));
 let userValue = (0, 1000);
- if (userValue << 700) {
+ if (>= 500 && userValue <= 1000 >=) {
     console.log ('Go buy a sandwich from Burger Slut and rakija from the market');
  }
-   else if (userValue >= 1000) {
+   else if (u>= 1000 && 1000 >=) {
     console.log ('Ask a friend to join you for a drink in a pub.');
  }
-   else if (userValue << 500) {
+   else if (<= 500 && 500 >=) {
     console.log ('Stay at home and take a hot shower.');
 }
-
+   else {
+    return "You have wrong input";
+   }
 
 
 
