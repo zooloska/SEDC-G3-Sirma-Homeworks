@@ -28,20 +28,13 @@ function zbirNiza (nizaArray) {
 }
 console.log(`Zbirot od nizata e: ${zbirNiza(niza)}`);
 
+let nizaVid = [3, 45, 34, 57, 32];
 
-
-function daliEBroj (nizaValidation) {
-    return typeof(nizaValidation [i]) === number;
+function daliEBroj (nizaVid) {
+    return typeof(nizaVid [i]) === 'number';
 }
 
-
-console.log(`Nizata e od vid: ${typeof(nizaValidation)}.`);
-console.log(typeof(niza[0]));
-, niza[1], niza[2], niza[3], niza[4]));
-niza[1]
-niza[2]
-niza[3]
-niza[4]
+console.log(typeof(nizaVid));
 
 
 
@@ -61,5 +54,18 @@ console.log(joinedString);
 
 console.log('== Homework- 4==');
 
+    let number = [];
+    for (let i=0; i<=20; i++) {
+        if  (i % 2 === 0) {
+             number.push (" \n ");
+        }
+        else {
+            number.push (" ");
+        } 
+    }
+
+    console.log(number);
+    
 console.log('== Homework- 5==');
+
 console.log('== Homework- 6==');
