@@ -30,7 +30,7 @@ button.addEventListener('click', function () {
     let input = userInput.value;
     let parsedInput = input.toLowerCase();
     console.log(parsedInput);
-    inputMovies(parsedInput, moviesArr);
+    inputMovies(moviesArray, input);
 });
 
 
