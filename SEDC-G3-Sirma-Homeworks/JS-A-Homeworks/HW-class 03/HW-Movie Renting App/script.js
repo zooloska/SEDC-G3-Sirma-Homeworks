@@ -1,6 +1,6 @@
 console.log('Test');
 
-let moviesArr = ['The Godfather','Napoleon','Anyone But You','Oppenheimer','Batman','The Age of Adaline','Erin Brockovich','Thor','Iron Man','Transformers','The Beekeper','Balkan-kan','Stela','Dedo i Vnuk','Makedonska Krvava Svadba','Dust','Cat on a Hot Tin Roof','Meet Joe Black','Inception','Pretty Woman','Eat Pray Love','Perfect Strangers','Lost in Translation','The Mechanic','The Expendables','The Lord of the Rings','Forrest Gump','Coco','Braveheart','Up','Spider-Man'];
+let moviesArr = ['the godfather','napoleon','anyone but you','oppenheimer','batman','the age of adaline','erin brockovich','thor','iron man','transformers','the beekeper','balkan-kan','stela','dedo i vnuk','makedonska krvava svadba','dust','cat on a hot tin roof','meet joe black','inception','pretty woman','eat pray love','perfect strangers','lost in translation','the mechanic','the expendables','the lord of the rings','forrest gump','coco','braveheart','up','spider-man'];
 
 
 let button = document.getElementById('btn');
