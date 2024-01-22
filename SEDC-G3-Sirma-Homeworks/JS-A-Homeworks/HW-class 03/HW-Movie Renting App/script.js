@@ -10,14 +10,14 @@ let result = document.getElementById('infoMovies');
 function inputMovies (moviesArr, input) { 
     for (let i = 0; i < moviesArr.length; i++) {
         if (moviesArr[i] == input) {
-            console.log("The movie is avaliable.");
+            // console.log("The movie is avaliable.");
             result.innerText = `The movie ${input} can be rented.`;
             result.style.color = 'green';
-            break;
+            return;
         
         }
         else {
-            console.log("The movie is not avaliable.");
+            // console.log("The movie is not avaliable.");
             result.innerText = `The movie ${input} can't be rented.`;
             result.style.color = 'red';
         }
