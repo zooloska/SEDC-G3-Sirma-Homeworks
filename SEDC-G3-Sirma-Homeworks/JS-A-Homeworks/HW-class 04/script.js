@@ -1,4 +1,21 @@
 console.log('--Excercise - 1--');
+
+let takeNumberD = [0, -3];
+
+function takeNumber (array) {
+    return array.length;
+    
+};
+
+console.log(takeNumberD);
+
+
+
+
+
+
+
+
 console.log('--Exercise - 2--');
 
 
