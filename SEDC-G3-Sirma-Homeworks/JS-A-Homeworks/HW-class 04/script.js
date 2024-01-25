@@ -60,7 +60,7 @@ console.log(resultFactoriel);
 console.log('--Exercise - 5--');
 
 
-let greet = ["Hello World"];
+let greet = ['hello from qinshift academy'];
 let reversed = greet.slice[''];
 console.log(reversed);
 
