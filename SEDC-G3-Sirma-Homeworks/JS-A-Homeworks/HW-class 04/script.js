@@ -2,7 +2,8 @@ console.log('--Excercise - 1--');
 
 let getNumberStatsFunctions = [
     (num1) => num1 >= 0 ? num1.length : num1.length - 1,
-    (num2) => num2 % 2 === 0 ? "Odd" : "Even",
+
+let (num2) => num2 % 2 === 0 ? "Odd" : "Even",
     (num3) => num3 > 0 ? "Positive" : "Negative",
     
   ];
